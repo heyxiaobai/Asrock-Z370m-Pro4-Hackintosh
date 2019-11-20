@@ -1,6 +1,6 @@
 ### EFI概述
 
-> 通过[小兵](https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html)的EFI文件进行精简优化
+> 通过[小兵](https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html)的EFI文件进行精简优化，已停止开发，转至[OpenCore引导](https://github.com/heyxiaobai/Asrock-Z370m-Pro4-Hackintosh/)
 
 Mac 版本：10.15.1
 
