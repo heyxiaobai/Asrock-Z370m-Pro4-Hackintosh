@@ -1,12 +1,12 @@
 ### EFI概述
 
-> 通过[小兵](https://blog.daliansky.net/macOS-Catalina-10.15.1-19B88-Release-version-with-Clover-5098-original-image-Double-EFI-Version.html)的EFI文件进行精简优化
+> 通过 [小兵](https://blog.daliansky.net/OpenCore-BootLoader.html) 和 [XJN](https://blog.xjn819.com/?p=543) 的博客，将 Clover引导[(点击跳转)](https://github.com/heyxiaobai/Asrock-Z370m-Pro4-Hackintosh/tree/clover-deprecated) 转换成 Opencore 引导
 
 Mac 版本：10.15.1
 
-Clover 版本：5098
+Opencore 版本：0.5.2
 
-更新日期：2019-11-20
+更新日期：2019-11-24
 
 
 
@@ -47,14 +47,24 @@ Clover 版本：5098
 
 
 
-### 注意事项：
+### 你可能需要做的事
 
-1. 采用定制USBPorts.kext，不一定可以通用，建议自己[定制](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html#定制usb)一个
-2. 使用随机生成的三码，建议使用Clover Configurator重新生成，以免与其他人的相同
-3. 如果BCM943602cs是三天线，可能会影响2.4G WiFi和蓝牙同时使用（5G WiFi不受影响）
+> 建议参考[小兵](https://blog.daliansky.net/OpenCore-BootLoader.html#deviceproperties-设备属性)、[XJN](https://blog.xjn819.com/?p=543)博客进行修改
+
+1. [使用MacInfo](https://blog.daliansky.net/OpenCore-BootLoader.html#macserial)获取 或者 重新生成三码，以免与其他人的相同
+2. 不同CPU可能需要设置电源管理（详见[XJN'S BLOG](https://blog.xjn819.com) 3.3～3.4）
+3. 带核显的CPU[配置缓冲帧](https://blog.daliansky.net/OpenCore-BootLoader.html#deviceproperties-设备属性)
+4. [定制](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html#定制usb)USBPorts.kext
+
+
+
+### 注意事项
+
+1. 如果BCM943602cs是三天线，可能会影响2.4G WiFi和蓝牙同时使用（5G WiFi不受影响）
 
 
 
 ### 致谢
 
 * [黑果小兵的部落阁](https://blog.daliansky.net)
+* [XJN'S BLOG](https://blog.xjn819.com)
