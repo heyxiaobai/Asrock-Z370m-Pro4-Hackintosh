@@ -2,11 +2,11 @@
 
 > 通过 [小兵](https://blog.daliansky.net/OpenCore-BootLoader.html) 和 [XJN](https://blog.xjn819.com/?p=543) 的博客，将 Clover引导[(点击跳转)](https://github.com/heyxiaobai/Asrock-Z370m-Pro4-Hackintosh/tree/clover-deprecated) 转换成 Opencore 引导
 
-Mac 版本：10.15.1
+Mac 版本：10.15.2
 
 Opencore 版本：0.5.3
 
-更新日期：2019-12-02
+更新日期：2019-12-13
 
 
 
