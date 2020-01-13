@@ -4,9 +4,9 @@
 
 Mac 版本：10.15.2
 
-Opencore 版本：0.5.3
+Opencore 版本：0.5.4
 
-更新日期：2019-12-13
+更新日期：2020-01-13
 
 
 
@@ -39,7 +39,7 @@ Opencore 版本：0.5.3
 * WIFI、蓝牙、隔空投送、接力
 * iMessage、FaceTime
 * 睡眠唤醒
-* 独显硬件加速（更新10.15.2后，无核显无法硬解HEVC，等后期更新）
+* 独显硬件加速
 
 ##### 未测试功能
 
@@ -51,10 +51,11 @@ Opencore 版本：0.5.3
 
 > 建议参考[小兵](https://blog.daliansky.net/OpenCore-BootLoader.html#deviceproperties-设备属性)、[XJN](https://blog.xjn819.com/?p=543)博客进行修改
 
-1. [使用MacInfo](https://blog.daliansky.net/OpenCore-BootLoader.html#macserial)获取 或者 重新生成三码，以免与其他人的相同
-2. 不同CPU可能需要设置电源管理（详见[XJN'S BLOG](https://blog.xjn819.com) 3.3～3.4）
-3. 带核显的CPU[配置缓冲帧](https://blog.daliansky.net/OpenCore-BootLoader.html#deviceproperties-设备属性)
-4. [定制](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html#定制usb)USBPorts.kext
+1. 修改config.plist中的ScanPolicy值（或者在选择启动项后按ctrl+enter设置为默认启动项）
+2. [使用MacInfo](https://blog.daliansky.net/OpenCore-BootLoader.html#macserial)获取 或者 重新生成三码，以免与其他人的相同
+3. 不同CPU可能需要设置电源管理（详见[XJN'S BLOG](https://blog.xjn819.com) 3.3～3.4）
+4. 带核显的CPU[配置缓冲帧](https://blog.daliansky.net/OpenCore-BootLoader.html#deviceproperties-设备属性)
+5. [定制](https://blog.daliansky.net/Intel-FB-Patcher-tutorial-and-insertion-pose.html#定制usb)USBPorts.kext
 
 
 
