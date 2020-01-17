@@ -25,7 +25,7 @@ Opencore 版本：0.5.4
 | 显示器     | 三星 1080P（二手）     | 150  |
 | 总         |                        | 2140 |
 
-> 注：该CPU没有核显
+> 注：该CPU没有核显，使用核显的请参考[链接](https://github.com/HouCoder/asrock-z370m-pro4-hackintosh)
 
 
 
